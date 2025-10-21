@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Basketball Scorecard</title>
+</head>
+
+<body>
+    <div class="main ubuntu-regular">
+        <div class="style" id="home">
+            <h1 class="home-title">
+                Home
+            </h1>
+            <div class="score-card">
+                <div id="home-score">
+                    00
+                </div>
+                <div class="score-button">
+                    <button class="button" onclick="homeScoreCard1()">+1</button>
+                    <button class="button" onclick="homeScoreCard2()">+2</button>
+                    <button class="button" onclick="homeScoreCard3()">+3</button>
+                </div>
+            </div>
+
+        </div>
+        <div class="style" id="guest">
+            <h1 class="guest-title">
+                Guest
+            </h1>
+            <div class="score-card">
+                <div id="guest-score">
+                    00
+                </div>
+                <div class="score-button">
+                    <button class="button" onclick="guestScoreCard1()">+1</button>
+                    <button class="button" onclick="guestScoreCard2()">+2</button>
+                    <button class="button" onclick="guestScoreCard3()">+3</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,54 @@
+body, html{
+    text-align: center;
+}
+
+.main{
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.home-title, .guest-title{
+    margin-bottom: 10px;
+}
+
+.ubuntu-regular {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.style{
+    padding: 25px;
+    background-color: navy;
+    color: white;
+    height: 30%;
+    width: 25%;
+}
+
+#guest-score, #home-score{
+    border: 1px solid black;
+    background-color: rgb(0, 0, 0);
+    color: red;
+    padding: 10px 0px;
+    margin-bottom: 10px;
+    font-size: 3rem;
+}
+
+.button{
+    background-color: navy;
+    border: 1px solid white;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 5px;
+}
+
+
+
+
+
