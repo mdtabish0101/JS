@@ -1,0 +1,40 @@
+body {
+    text-align: center;
+}
+
+.shelf {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#apple-shelf {
+    border: none;
+    height: 40px;
+    width: 30%;
+    background-color: rgb(255, 0, 0);
+    border-radius: 10px;
+    opacity: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 3px black;
+    text-shadow: 2px 2px black;
+}
+
+#orange-shelf {
+    border: none;
+    height: 40px;
+    width: 30%;
+    background-color: orange;
+    border-radius: 10px;
+    opacity: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 3px black;
+    text-shadow: 2px 2px black;
+}

@@ -88,7 +88,7 @@
 
 // console.log(airBnB.title);
 // console.log(airBnB.tags)
- 
+
 
 // let person = {
 //     name: "Md Tabish",
@@ -140,3 +140,26 @@
 // if(dayOfMonth === 13 && weekDay.toLowerCase() === "friday"){
 //     console.log("Spooky face")
 // }
+
+// let hands = ["rock", "paper", "scissor"]
+
+// function getHand() {
+//     let randomHands = hands[Math.floor(Math.random() * hands.length)]
+//     console.log(randomHands)
+
+// }
+
+// getHand();
+
+
+let emojis = ["🐵", "🐶", "🐺", "🐱", "🦁", "🐯", "🦒", "🦊", "🦝", "🐰", "🐹", "🐭", "🐗", "🐷", "🐮", "🐻", "🐻‍❄️", "🐨", "🐼", "🐸", "🦓", "🐲", "🐔", "🫏", "🦄", "🫎", "🐴", "🐒", "🦍", "🦧", "🦮", "🐅", "🐈‍⬛", "🐈", "🐩", "🐕‍🦺", "🐆", "🐎", "🦌", "🦬", "🦏", "🦛", "🐑", "🐏", "🐄", "🐃", "🐂", "🐐", "🐪", "🐫", "🦙", "🦘", "🦥", "🐀", "🐁", "🦣", "🐘", "🦡", "🦨", "🦔", "🐇", "🐿️", "🦫", "🦎", "🐊", "🦦", "🦖", "🦕", "🐉", "🐍", "🐢", "🦈", "🐬", "🦭", "🐳", "🐋", "🐟", "🦞", "🐙", "🦑", "🦐", "🐡", "🐠", "🦀", "🐚", "🪸", "🪼", "🦆", "🐓", "🪽", "🦜", "🦢", "🕊️", "🦅", "🦃", "🐦‍⬛", "🪿", "🐦‍🔥", "🦚", "🦉", "🐤", "🐥", "🐧", "🐦", "🦤", "🐣", "🦇", "🐌", "🐛", "🦟", "🐝", "🪳", "🐜", "🦗", "🪱", "🪰", "🪲", "🐞", "🦂", "🕷️"]
+
+let stageEl = document.getElementById("stageEl")
+let fightButton = document.getElementById("fightButton")
+
+fightButton.addEventListener("click", function () {
+    let randomEmojiOne = Math.floor(Math.random() * emojis.length);
+    let randomEmojiTwo = Math.floor(Math.random() * emojis.length);
+    stageEl.textContent = emojis[randomEmojiOne] + " Vs " + emojis[randomEmojiTwo]
+})
+
