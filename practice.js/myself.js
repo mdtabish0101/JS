@@ -152,14 +152,34 @@
 // getHand();
 
 
-let emojis = ["🐵", "🐶", "🐺", "🐱", "🦁", "🐯", "🦒", "🦊", "🦝", "🐰", "🐹", "🐭", "🐗", "🐷", "🐮", "🐻", "🐻‍❄️", "🐨", "🐼", "🐸", "🦓", "🐲", "🐔", "🫏", "🦄", "🫎", "🐴", "🐒", "🦍", "🦧", "🦮", "🐅", "🐈‍⬛", "🐈", "🐩", "🐕‍🦺", "🐆", "🐎", "🦌", "🦬", "🦏", "🦛", "🐑", "🐏", "🐄", "🐃", "🐂", "🐐", "🐪", "🐫", "🦙", "🦘", "🦥", "🐀", "🐁", "🦣", "🐘", "🦡", "🦨", "🦔", "🐇", "🐿️", "🦫", "🦎", "🐊", "🦦", "🦖", "🦕", "🐉", "🐍", "🐢", "🦈", "🐬", "🦭", "🐳", "🐋", "🐟", "🦞", "🐙", "🦑", "🦐", "🐡", "🐠", "🦀", "🐚", "🪸", "🪼", "🦆", "🐓", "🪽", "🦜", "🦢", "🕊️", "🦅", "🦃", "🐦‍⬛", "🪿", "🐦‍🔥", "🦚", "🦉", "🐤", "🐥", "🐧", "🐦", "🦤", "🐣", "🦇", "🐌", "🐛", "🦟", "🐝", "🪳", "🐜", "🦗", "🪱", "🪰", "🪲", "🐞", "🦂", "🕷️"]
+// let emojis = ["🐵", "🐶", "🐺", "🐱", "🦁", "🐯", "🦒", "🦊", "🦝", "🐰", "🐹", "🐭", "🐗", "🐷", "🐮", "🐻", "🐻‍❄️", "🐨", "🐼", "🐸", "🦓", "🐲", "🐔", "🫏", "🦄", "🫎", "🐴", "🐒", "🦍", "🦧", "🦮", "🐅", "🐈‍⬛", "🐈", "🐩", "🐕‍🦺", "🐆", "🐎", "🦌", "🦬", "🦏", "🦛", "🐑", "🐏", "🐄", "🐃", "🐂", "🐐", "🐪", "🐫", "🦙", "🦘", "🦥", "🐀", "🐁", "🦣", "🐘", "🦡", "🦨", "🦔", "🐇", "🐿️", "🦫", "🦎", "🐊", "🦦", "🦖", "🦕", "🐉", "🐍", "🐢", "🦈", "🐬", "🦭", "🐳", "🐋", "🐟", "🦞", "🐙", "🦑", "🦐", "🐡", "🐠", "🦀", "🐚", "🪸", "🪼", "🦆", "🐓", "🪽", "🦜", "🦢", "🕊️", "🦅", "🦃", "🐦‍⬛", "🪿", "🐦‍🔥", "🦚", "🦉", "🐤", "🐥", "🐧", "🐦", "🦤", "🐣", "🦇", "🐌", "🐛", "🦟", "🐝", "🪳", "🐜", "🦗", "🪱", "🪰", "🪲", "🐞", "🦂", "🕷️"]
 
-let stageEl = document.getElementById("stageEl")
-let fightButton = document.getElementById("fightButton")
+// let stageEl = document.getElementById("stageEl")
+// let fightButton = document.getElementById("fightButton")
 
-fightButton.addEventListener("click", function () {
-    let randomEmojiOne = Math.floor(Math.random() * emojis.length);
-    let randomEmojiTwo = Math.floor(Math.random() * emojis.length);
-    stageEl.textContent = emojis[randomEmojiOne] + " Vs " + emojis[randomEmojiTwo]
-})
+// fightButton.addEventListener("click", function () {
+//     let randomEmojiOne = Math.floor(Math.random() * emojis.length);
+//     let randomEmojiTwo = Math.floor(Math.random() * emojis.length);
+//     stageEl.textContent = emojis[randomEmojiOne] + " Vs " + emojis[randomEmojiTwo]
+// })
 
+
+// Template strogs
+
+// const recipient = "James";
+// const sender = "Per"
+// const email = "Hey " + recipient + "! how is it going? Cheers " + sender;
+// console.log(email)
+
+// const tEmail = `Hey ${recipient}! 
+// How is it going? Cheers 
+// ${sender}`;
+// console.log(tEmail)
+
+let myLeads = ["www.awesomelead.com", "www.youtube.com"];
+
+function getFirst(myLeads){
+    return myLeads[0]
+}
+
+console.log(getFirst(myLeads))
