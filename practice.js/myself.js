@@ -176,10 +176,61 @@
 // ${sender}`;
 // console.log(tEmail)
 
-let myLeads = ["www.awesomelead.com", "www.youtube.com"];
+// let myLeads = ["www.awesomelead.com", "www.youtube.com"];
 
-function getFirst(myLeads){
-    return myLeads[0]
-}
+// function getFirst(myLeads){
+//     return myLeads[0]
+// }
 
-console.log(getFirst(myLeads))
+// console.log(getFirst(myLeads))
+
+// let buttonEl = document.getElementById("fightButton");
+// let myCourses = ["learn CSS Animations", "UI Design Fundamentals", "Intro to Clean Code"]
+// let n = myCourses.length;
+// buttonEl.addEventListener("click", () => {
+//     localStorage.setItem("myCourses", JSON.stringify(myCourses));
+//     let courses = JSON.parse(localStorage.getItem("myCourses"));
+//     console.log(courses)
+// })
+
+// let data = [
+//     {
+//         player: "Jane",
+//         score: 52
+//     },
+//     {
+//         player: "Mark",
+//         score: 41
+//     }
+// ]
+
+// let buttonEl = document.getElementById("log-button");
+// let logEl = document.getElementById("log-data")
+// buttonEl.addEventListener("click", ()=>{
+//     logEl.textContent = `Player ${data[0].player}'s score is ${data[0].score}`
+// })
+
+
+// let largeCountries = ["China", "India", "USA"];
+// let bestFruits = ["Banana", "Mango"]
+
+// function generateSentence(desc, arr){
+//     let baseString = `The ${arr.length} ${desc} are `;
+//     for(let i = 0; i < arr.length; i++){
+//         baseString += arr[i] + ", ";
+//     }
+
+//     return baseString;
+// }
+
+// let desc1 = "largest countries";
+// let desc2 = "best fruits"
+
+// console.log(generateSentence(desc1, largeCountries))
+// console.log(generateSentence(desc2, bestFruits))
+
+
+
+
+
+
