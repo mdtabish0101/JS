@@ -1,0 +1,23 @@
+html {
+    background-color: rgb(46, 46, 46);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-content {
+    width: 600px;
+    height: 350px;
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 20px;
+}
+
+#stock-data{
+    padding: 20px ;
+}
