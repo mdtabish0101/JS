@@ -6,6 +6,10 @@ button.addEventListener("click", handleClick);
 const password1El = document.getElementById("password1");
 const password2El = document.getElementById("password2");
 
+
+password1El.addEventListener("click", copyPassword);
+password2El.addEventListener("click", copyPassword);
+
 function getRandomCharacter() {
     let k = Math.floor(Math.random() * characters.length);
     return characters[k]
@@ -26,3 +30,18 @@ function handleClick() {
 }
 
 
+async function copyPassword(event) {
+    const text = event.target.textContent;
+    if(!text){return;}
+    navigator.clipboard.writeText(text);
+    event.target.textContent = "copied!";
+    setTimeout(()=>{
+        event.target.textContent = text;
+    }, 1000);
+}
+
+
+//stretch goals
+// 1. ability to set password length (user will give a query)
+// 2. add "copy-on-click" done
+// 3. toggle "symbols" and "numbers" on/off
